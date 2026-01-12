@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --brand-900: #bf7506;
+  --brand-500: #dd9c3c;
+  --brand-100: #f4debe;
+  --neutral-900: #211b12;
+  --neutral-500: #83807c;
+  --neutral-100: #e0dedc;
+  --font-family: "Inter", system-ui;
+  --second-family: "Helvetica", system-ui;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 870px;
+}
+
+.headerWrapper {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 24px;
+}
+
+.navListItem a {
+  line-height: 150%;
+  color: var(--brand-900);
+}
+
+.active {
+  font-weight: 700;
+}
