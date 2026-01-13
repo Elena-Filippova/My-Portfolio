@@ -89,3 +89,143 @@ a {
 .active {
   font-weight: 700;
 }
+
+.hero {
+  padding: 34px 0;
+}
+
+.heroWrapper {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.heroTitle {
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--neutral-900);
+}
+
+.heroHeading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: var(--neutral-900);
+}
+
+.heroHeadingSpan {
+  color: var(--brand-900);
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.socialList {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cvDownload {
+  padding: 7px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 2px solid var(--brand-900);
+}
+
+.cvText {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--neutral-900);
+}
+
+.projects {
+  padding: 38px 0;
+}
+
+.projectsTitle {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--brand-900);
+}
+
+.cards {
+  display: flex;
+  gap: 72px;
+}
+
+.card {
+  width: calc((870px - 72px) / 2);
+}
+
+.cardWrapper {
+  padding: 16px 16px 16px 0;
+}
+
+.cardTitle {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: var(--brand-900);
+}
+
+.tags {
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.tagsItem {
+  padding: 5px 8px 4px;
+  height: 27px;
+  border-radius: 4px;
+  border: 1px solid var(--brand-500);
+}
+
+.cardText {
+  margin: 0;
+  margin-bottom: 17px;
+  line-height: 150%;
+  color: var(--neutral-900);
+}
+
+.cardButtons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.cardLink {
+  padding: 7px 8px 5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 2px solid var(--brand-900);
+}
+
+.cardLinkText {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--neutral-900);
+}
