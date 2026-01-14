@@ -18,16 +18,16 @@
           <nav class="nav">
             <ul class="navList">
               <li class="navListItem">
-                <a href="#" class="active">Главная</a>
+                <a href="/index.html" class="active">Главная</a>
               </li>
               <li class="navListItem">
-                <a href="#">Проекты</a>
+                <a href="#projects">Проекты</a>
               </li>
               <li class="navListItem">
-                <a href="#">Обо мне</a>
+                <a href="#developer">Обо мне</a>
               </li>
               <li class="navListItem">
-                <a href="#">Связаться</a>
+                <a href="#feedback">Связаться</a>
               </li>
             </ul>
           </nav>
@@ -89,7 +89,7 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="container">
         <div class="projectsWrapper">
           <h2 class="projectsTitle">
@@ -161,9 +161,79 @@
         </div>
       </div>
     </section>
-    <section class="">
+    <section class="developer" id="developer">
       <div class="container">
-
+        <div class="developerWrapper">
+          <div class="developerImage">
+            <img src="./img/developer.jpg" alt="Елена Филиппова">
+          </div>
+          <div class="developerInfo">
+            <span class="developerHello">
+              Рада вас видеть
+            </span>
+            <h2 class="developerTitle">
+              Я Елена Филиппова
+            </h2>
+            <p class="developerText">
+              Я разрабатываю сайты для людей и компаний. Делаю всё сама: составляю прототип, дизайн-макет, пишу код.
+            </p>
+            <span class="motto">
+              Код, Дизайн, Обучение
+            </span>
+            <p class="developerDescr">
+              Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть:
+              Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
+            </p>
+            <img class="developerSign" src="./img/sign.png" alt="Подпись: Елена Филиппова">
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="skillsTitle">
+            Работаю с разными языками и инструментами
+          </h2>
+          <ul class="tags">
+            <li class="tagsItem">HTML</li>
+            <li class="tagsItem">CSS</li>
+            <li class="tagsItem">JavaScript</li>
+            <li class="tagsItem">WordPress</li>
+            <li class="tagsItem">npm</li>
+            <li class="tagsItem">Reactjs</li>
+            <li class="tagsItem">Nextjs</li>
+            <li class="tagsItem">UI Design</li>
+            <li class="tagsItem">SASS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="feedbackWrapper">
+          <h2 class="feedbackTitle">
+            Готова обсудить проект...
+          </h2>
+          <form class="form" action="#">
+            <div class="inputGroup">
+              <label class="label" for="userName">Имя</label>
+              <input class="input" id="userName" type="text">
+            </div>
+            <div class="inputGroup">
+              <label class="label" for="userEmail">Email</label>
+              <input class="input" id="userEmail" type="email">
+            </div>
+            <div class="inputGroup">
+              <label class="label" for="userMessage">Сообщение</label>
+              <textarea class="input textarea" id="userMessage"></textarea>
+            </div>
+            <div class="buttonGroup">
+              <button type="submit" class="cvDownload">
+                <img src="./img/send.svg" alt="Отправить">
+                <span class="cvText">
+                  Отправить
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   </main>

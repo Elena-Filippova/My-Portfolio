@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -61,6 +62,16 @@ a {
   outline: none;
   border: none;
   color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  object-fit: cover;
 }
 
 .container {
@@ -228,4 +239,130 @@ a {
   font-weight: 700;
   line-height: 150%;
   color: var(--neutral-900);
+}
+
+.developer {
+  padding: 82px 0 60px 0;
+}
+
+.developerWrapper {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.developerImage img {
+  width: 360px;
+  height: 440px;
+  border-radius: 20px;
+}
+
+.developerHello {
+  margin-bottom: 4px;
+  display: block;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: var(--neutral-900);
+}
+
+.developerTitle {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--brand-900);
+}
+
+.developerText {
+  margin: 0;
+  margin-bottom: 16px;
+  line-height: 150%;
+  color: var(--neutral-900);
+}
+
+.motto {
+  margin-bottom: 16px;
+  display: block;
+  font-family: var(--second-family);
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--brand-500);
+}
+
+.developerDescr {
+  margin: 0;
+  margin-bottom: 32px;
+  line-height: 150%;
+  color: var(--neutral-900);
+}
+
+.developerSign {
+  max-width: 200px;
+}
+
+.skillsTitle {
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: var(--neutral-900);
+}
+
+.feedback {
+  padding: 60px 0 120px 0;
+}
+
+.feedbackWrapper {
+  margin: 0 auto;
+  width: 435px;
+}
+
+.feedbackTitle {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--neutral-900);
+}
+
+.inputGroup {
+  margin-bottom: 24px;
+  padding: 9px 0 0 0;
+  position: relative;
+}
+
+.label {
+  padding: 0 8px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  line-height: 150%;
+  background-color: #ffffff;
+  color: var(--neutral-500);
+}
+
+.input {
+  padding: 16px;
+  width: 435px;
+  height: 56px;
+  border-radius: 4px;
+  border: 3px solid var(--neutral-100);
+  background-color: #ffffff;
+}
+
+.textarea {
+  min-height: 131px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
 }
