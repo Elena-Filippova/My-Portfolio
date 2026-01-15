@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="./img/logo.svg" />
   <title>Елена Филиппова - веб-разработчик, фрилансер</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
 </head>
 <body>
   <header>
@@ -78,7 +80,7 @@
                   </a>
                 </li>
               </ul>
-              <a href="#" class="cvDownload" download>
+              <a href="cv.pdf" class="cvDownload" download>
                 <img src="./img/download.svg" alt="Download">
                 <span class="cvText">
                   Скачать резюме
@@ -206,6 +208,7 @@
       </div>
     </section>
     <section class="feedback" id="feedback">
+      <img class="feedbackImg" src="./img/hand.png" alt="hand">
       <div class="container">
         <div class="feedbackWrapper">
           <h2 class="feedbackTitle">
@@ -214,15 +217,15 @@
           <form class="form" action="#">
             <div class="inputGroup">
               <label class="label" for="userName">Имя</label>
-              <input class="input" id="userName" type="text">
+              <input class="input" id="userName" name="client_name" type="text">
             </div>
             <div class="inputGroup">
               <label class="label" for="userEmail">Email</label>
-              <input class="input" id="userEmail" type="email">
+              <input class="input" id="userEmail" name="client_email" type="email">
             </div>
             <div class="inputGroup">
               <label class="label" for="userMessage">Сообщение</label>
-              <textarea class="input textarea" id="userMessage"></textarea>
+              <textarea class="input textarea" id="userMessage" name="client_message"></textarea>
             </div>
             <div class="buttonGroup">
               <button type="submit" class="cvDownload">
@@ -237,5 +240,12 @@
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="footerDescr">
+        Сделано с ❤️ в Беларуси
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
